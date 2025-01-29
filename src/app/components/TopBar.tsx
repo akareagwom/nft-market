@@ -22,9 +22,9 @@ const TopBar: React.FC<Props> = ({  }) => {
         </Tabs.List>
       </Tabs.Root>
 
-      <Flex>
-        <Button>Contact</Button>
-        <Button>My Account</Button>
+      <Flex justifyContent='space-between'>
+        <Button border={'1px solid grey'} borderRadius={'10px'} bg='transparent'p={2}>Contact</Button>
+        <Button borderRadius={'10px'} bg='#2A27C9' p={2} bgGradient={'linear(to-r, #4745D0, #2A27C9)'}>My Account</Button>
       </Flex>
     </Flex>
   );
