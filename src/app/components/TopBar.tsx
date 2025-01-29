@@ -1,4 +1,4 @@
-import { Box, Flex, Tabs, Text, Button } from '@chakra-ui/react';
+import { Box, Flex, Tabs, Text, Button, Image } from '@chakra-ui/react';
 import React from 'react';
 
 interface Props {
@@ -12,7 +12,7 @@ const TopBar: React.FC<Props> = ({  }) => {
     p={4}
     alignItems={'baseline'}
     >
-      <Text>hello</Text>
+        <Image src='assets/Sygnet.png'/>
       <Tabs.Root  defaultValue="members" variant={'plain'}>
         <Tabs.List  >
             <Tabs.Trigger value='' px={2}>Auctions</Tabs.Trigger>
