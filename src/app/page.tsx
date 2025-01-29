@@ -5,6 +5,7 @@ import TopBar from "./components/TopBar";
 import { url } from "inspector";
 import HomePage from "./HomePage";
 import SliderItem from "./Slider";
+import About from "./About";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
     <HomePage/>
   </Box>
     <SliderItem/>
+    <About/>
  </Box>
   );
 }
