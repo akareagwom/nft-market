@@ -32,7 +32,7 @@ const Popular: React.FC<Props> = ({  }) => {
             <Tabs.List>Photography</Tabs.List>
             <Tabs.List>Music</Tabs.List>
         </Tabs.Root>
-        <Flex>
+        <Flex  display={{base:'block', lg:'flex'}}>
              {user.map((use)=>(
                                 <Card.Root key={use.price} border='none' color={'white'} borderRadius={'10px'} px={2} mx={4} w={'180px'} bg='transparent'>
                                     <Card.Body >

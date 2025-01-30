@@ -12,7 +12,7 @@ const SearchBar: React.FC<Props> = ({  }) => {
       bg='white'
       borderRadius={'10px'}
       p={6}
-      w={'500px'}
+      w={{lg:'500px',base:'200px'}}
 />
     </Box>
   );

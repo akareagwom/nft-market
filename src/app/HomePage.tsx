@@ -20,18 +20,18 @@ const HomePage: React.FC<Props> = ({  }) => {
     >
       <Text>Non Fungible Tokens</Text>
       <Flex mr='5%' alignItems={'center'} py={4}>
-        <Heading fontSize='8xl'>A new NFT</Heading>
-        <Image src='assets/Vector.png'/>
+        <Heading fontSize={{lg:'8xl', base:'3xl'}}>A new NFT</Heading>
+        <Image w={{lg:'100px',base:'20px'}} src='assets/Vector.png'/>
       </Flex>
       <Flex ml={'10%'} alignItems={'baseline'} py={4}>
-        <Image src='assets/Frame.png'/>
-        <Heading fontSize='8xl'>Experience</Heading>
+        <Image w={{lg:'100px',base:'20px'}} src='assets/Frame.png'/>
+        <Heading fontSize={{lg:'8xl', base:'3xl'}}>Experience</Heading>
       </Flex>
       <Text py={4}>Discover, collect and sell</Text>
 
       <SearchBar/>
 
-      <Flex w='40%' justifyContent={'space-between'} pt={20}>
+      <Flex w={{lg:'40%',base:'20%'}} justifyContent={'space-between'} pt={20}>
         <Image src='assets/Ritter Sport.png'/>
         <Image src='assets/Nike.png'/>
         <Image src='assets/Adidas.png'/>

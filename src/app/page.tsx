@@ -29,16 +29,16 @@ export default function Home() {
   bgSize={'cover'}
   >
     <TopBar/>
-    {/* <HomePage/> */}
+    <HomePage/>
   </Box>
-    {/* <SliderItem/>
+    <SliderItem/>
     <About/>
     <Carousel/>
     <Nft/>
     <Popular/>
     <Register/>
-    */}
-    <Discover/>
+   
+    {/* <Discover/> */}
     <Market/> 
  </Box>
   );

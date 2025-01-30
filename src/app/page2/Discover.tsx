@@ -2,6 +2,7 @@ import { Box, Card, Flex, Heading, Image, Text, VStack, Button } from '@chakra-u
 import { Avatar } from "@/components/ui/avatar";
 import React from 'react';
 import LineChart from './components/LineBar';
+import Author from './components/Autor';
 
 
 interface Props {
@@ -51,6 +52,7 @@ const Discover: React.FC<Props> = ({  }) => {
             <LineChart/>
         </VStack>
       </Flex>
+            <Author/>
     </Box>
   );
 };
