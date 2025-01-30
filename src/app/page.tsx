@@ -9,6 +9,7 @@ import About from "./About";
 import Carousel from "./components/Carousel"
 import Nft from "./Nft";
 import Popular from "./Popular";
+import Register from "./Register";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
     <Carousel/>
     <Nft/>
     <Popular/>
+    <Register/>
  </Box>
   );
 }
