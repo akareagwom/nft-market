@@ -25,7 +25,7 @@ const SliderItem: React.FC<Props> = ({  }) => {
   return (
     <Box py={8}>
         <Heading color='white' textAlign={'center'}>Latest live auctions</Heading>
-        <Flex  display={{base:'block', lg:'flex'}} lineHeight={'24px'} justifyContent={'space-between'} overflow={'auto'} >
+        <Flex  display={{base:'block', lg:'flex'}} alignItems={{base:'center',lg:'none'}} lineHeight={'24px'} justifyContent={{lg:'space-between', base:'center'}} overflow={'auto'} >
             {user.map((use)=>(
                     <Card.Root key={use.price} border='1px solid grey' color={'white'} borderRadius={'10px'} px={2} mx={4} w={'300px'} bg='transparent'>
                         <Card.Body >

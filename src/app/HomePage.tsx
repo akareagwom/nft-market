@@ -19,12 +19,12 @@ const HomePage: React.FC<Props> = ({  }) => {
     alignItems={'center'}
     >
       <Text>Non Fungible Tokens</Text>
-      <Flex mr='5%' alignItems={'center'} py={4}>
+      <Flex mr='5%' alignItems={'center'} py={{lg:4, base:2}}>
         <Heading fontSize={{lg:'8xl', base:'3xl'}}>A new NFT</Heading>
-        <Image w={{lg:'100px',base:'20px'}} src='assets/Vector.png'/>
+        <Image w={{lg:'auto',base:'15px'}} src='assets/Vector.png'/>
       </Flex>
-      <Flex ml={'10%'} alignItems={'baseline'} py={4}>
-        <Image w={{lg:'100px',base:'20px'}} src='assets/Frame.png'/>
+      <Flex ml={'10%'} alignItems={'baseline'} py={{lg:4, base:2}}>
+        <Image w={{lg:'auto',base:'20px'}} src='assets/Frame.png'/>
         <Heading fontSize={{lg:'8xl', base:'3xl'}}>Experience</Heading>
       </Flex>
       <Text py={4}>Discover, collect and sell</Text>

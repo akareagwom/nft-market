@@ -21,7 +21,7 @@ const Carousel: React.FC<Props> = ({  }) => {
     ];
 
   return (
-    <Flex alignItems={'baseline'} justifyContent={'center'} w='100%'>
+    <Flex display={{lg:'flex',base:'block'}} alignItems={'baseline'} justifyContent={'center'} w='100%'>
       <Card.Root py={4} border='1px solid grey' color={'white'} borderRadius={'10px'} px={2} mx={4} w={'300px'} bg='transparent'>
         <Card.Header fontSize={'3xl'}>Check out the hottest Sale offers</Card.Header>
         <Card.Body>
