@@ -10,6 +10,7 @@ import Carousel from "./components/Carousel"
 import Nft from "./Nft";
 import Popular from "./Popular";
 import Register from "./Register";
+import Market from "./Market";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
     <Nft/>
     <Popular/>
     <Register/>
+    <Market/>
  </Box>
   );
 }
