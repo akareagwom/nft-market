@@ -27,7 +27,7 @@ const Register: React.FC<Props> = ({  }) => {
         </VStack>
       </Flex>
       <Card.Root  mt={'10%'}  bgGradient="to-b" border='none' gradientFrom="#262840" gradientTo="#060714"   color='white' borderRadius={'10px'} borderTopLeftRadius={'none'} px={2} mx={4} w={'80%'}>
-                      <Box fontSize={'3xl'} bg='rgb(35, 40, 43)' pos={'relative'} left={-2} right={2} top={-5} px={4} w='40%' borderTopRadius={'10px'}>
+                      <Box fontSize={'3xl'} bg='#262840' pos={'relative'} left={-2} right={2} top={-5} px={4} w='40%' borderTopRadius={'10px'}>
                           ...
                       </Box>
             <Card.Body pos='relative'>
