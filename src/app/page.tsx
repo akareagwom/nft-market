@@ -11,6 +11,7 @@ import Nft from "./Nft";
 import Popular from "./Popular";
 import Register from "./Register";
 import Market from "./Market";
+import Discover from "./page2/Discover";
 
 export default function Home() {
   return (
@@ -28,15 +29,17 @@ export default function Home() {
   bgSize={'cover'}
   >
     <TopBar/>
-    <HomePage/>
+    {/* <HomePage/> */}
   </Box>
-    <SliderItem/>
+    {/* <SliderItem/>
     <About/>
     <Carousel/>
     <Nft/>
     <Popular/>
     <Register/>
-    <Market/>
+    */}
+    <Discover/>
+    <Market/> 
  </Box>
   );
 }

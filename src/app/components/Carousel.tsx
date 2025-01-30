@@ -61,7 +61,7 @@ const Carousel: React.FC<Props> = ({  }) => {
 
       {/* document card */}
             <Box>
-                <Card.Root bgGradient="to-b" border='none' gradientFrom="rgb(35, 40, 43)" gradientTo="#060714"  color='white' borderRadius={'10px'} borderTopLeftRadius={'none'} px={2} mx={4} w={'300px'}>
+                <Card.Root bgGradient="to-b" border='none' gradientFrom="#262840" gradientTo="#060714"  color='white' borderRadius={'10px'} borderTopLeftRadius={'none'} px={2} mx={4} w={'300px'}>
                 <Box fontSize={'3xl'} bg='rgb(35, 40, 43)' pos={'relative'} left={-2} right={2} top={-5} px={4} w='40%' borderTopRadius={'10px'}>
                     ...
                 </Box>
