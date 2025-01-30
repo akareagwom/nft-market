@@ -6,6 +6,7 @@ import { url } from "inspector";
 import HomePage from "./HomePage";
 import SliderItem from "./Slider";
 import About from "./About";
+import Carousel from "./components/Carousel"
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
   </Box>
     <SliderItem/>
     <About/>
+    <Carousel/>
  </Box>
   );
 }
