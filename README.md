@@ -19,8 +19,8 @@ Ensure you have **Node.js** and **npm** or **yarn** installed.
 ### Steps
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/nft-dashboard.git
-   cd nft-dashboard
+   git clone https://github.com/akareagwom/nft-market
+   cd nft-market
    ```
 
 2. **Install dependencies**
@@ -34,9 +34,12 @@ Ensure you have **Node.js** and **npm** or **yarn** installed.
    ```
    The application will be available at `http://localhost:3000`.
 
+4. **Go live**
+`https://nftmarkettask.netlify.app/`
+
 ## Project Structure
 ```
-📂 nft-dashboard
+📂 nft-market
 ├── 📂 components  # Reusable UI components
 ├── 📂 pages       # Next.js pages
 ├── 📂 public      # Static assets
